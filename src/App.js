@@ -11,11 +11,11 @@ function App() {
     };
     setList([...list, newTodo]); // adding todo to the list
 
-    setInput("");
+    setInput(""); //clearing input box
   };
 
   const deleteTodo = (id) => {
-    const newList = list.filter((todo) => todo.id !== id);
+    const newList = list.filter((todo) => todo.id !== id); //deleting todo items
     setList(newList);
   };
 
