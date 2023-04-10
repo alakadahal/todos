@@ -10,8 +10,7 @@ function App() {
       todo: todo,
     };
     setList([...list, newTodo]); // adding todo to the list
-
-    setInput(""); //clearing input box
+    setInput(""); //clearing todos
   };
 
   const deleteTodo = (id) => {
