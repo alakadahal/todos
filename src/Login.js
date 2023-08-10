@@ -11,10 +11,6 @@ function App() {
         {
             username: "admin",
             password: "admin"
-        },
-        {
-            username: "root",
-            password: "root"
         }
     ];
 
